@@ -1,10 +1,10 @@
-import React from 'react'
-import Screen from './Component/Screen'
+import Counter from './components/Counter'
 
 const App = () => {
   return (
-    <div className='flex flex-col items-center justify-between'>
-      <Screen />
+    <div className='h-screen flex flex-col items-center justify-center gap-10'>
+      <h2 className='text-3xl text-black font-serif font-bold'>COUNTER APP</h2>
+      <Counter />
     </div>
   )
 }
